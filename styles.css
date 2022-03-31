@@ -11,7 +11,7 @@ body {
 
 body .container {
   margin: auto;
-  width: 25%;
+  width: 300px;
   background-color: #252d37;
   margin-top: 170px;
   padding: 20px;
@@ -51,10 +51,6 @@ body .container .numbers p {
   border-radius: 50%;
   font-size: 20px;
   padding: 5px 11px 5px 11px;
-}
-
-body .container .numbers p:hover {
-  background-color: orange;
 }
 
 body .container .numbers + a {

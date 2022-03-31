@@ -1,28 +1,58 @@
-// document.getElementsByTagName('button').onclick = function(){
+ function firstFunction(){
+one.classList.add('change');
+two.classList.remove('change');
+three.classList.remove('change');
+four.classList.remove('change');
+five.classList.remove('change');
+localStorage.setItem('rank' , '1')
 
-// }
 
-
-document.getElementById('one').onclick = function() {
-   
-    document.getElementById('one').style.color = 'orange'
-    // document.getElementById('two').style.backgroundColor = '#4b4b4e'
-    // document.getElementById('three').style.backgroundColor = '#4b4b4e'
-    // document.getElementById('four').style.backgroundColor = '#4b4b4e'
-    // document.getElementById('five').style.backgroundColor = '#4b4b4e'
-    document.getElementById('response').innerHTML = 1;
-    console.log(1);
-
-    
 }
-document.getElementById('two').onclick = function() {
-    document.getElementById('two').style.color = 'orange'
-    // document.getElementById('two').style.backgroundColor = '#4b4b4e'
-    // document.getElementById('three').style.backgroundColor = '#4b4b4e'
-    // document.getElementById('four').style.backgroundColor = '#4b4b4e'
-    // document.getElementById('five').style.backgroundColor = '#4b4b4e'
-    document.getElementById('response').innerHTML = 2;
-    console.log(1);
+ function secondFunction(){
+one.classList.remove('change');
+two.classList.add('change');
+three.classList.remove('change');
+four.classList.remove('change');
+five.classList.remove('change');
+localStorage.setItem('rank' , '2')
 
-    
+
 }
+ function thirdFunction(){
+one.classList.remove('change');
+two.classList.remove('change');
+three.classList.add('change');
+four.classList.remove('change');
+five.classList.remove('change');
+localStorage.setItem('rank' , '3')
+
+
+}
+ function fourthFunction(){
+one.classList.remove('change');
+two.classList.remove('change');
+three.classList.remove('change');
+four.classList.add('change');
+five.classList.remove('change');
+localStorage.setItem('rank' , '4')
+
+
+}
+ function fifthFunction(){
+one.classList.remove('change');
+two.classList.remove('change');
+three.classList.remove('change');
+four.classList.remove('change');
+five.classList.add('change');
+localStorage.setItem('rank' , '5')
+
+
+}
+
+let data = localStorage.getItem("rank");
+response.innerHTML = data
+  
+//   bo = document.querySelector(".body2")
+//   col =  localStorage.getItem('colors')
+//   bo.classList.add(col)
+//   localStorage.clear()
