@@ -1,58 +1,35 @@
- function firstFunction(){
-one.classList.add('change');
-two.classList.remove('change');
-three.classList.remove('change');
-four.classList.remove('change');
-five.classList.remove('change');
-localStorage.setItem('rank' , '1')
-
-
+function firstFunction() {
+  // one.classList.add('change');
+  // two.classList.remove('change');
+  // three.classList.remove('change');
+  // four.classList.remove('change');
+  // five.classList.remove('change');
+  document.getElementById("one").style.backgroundColor = "orange";
+  localStorage.setItem("rank", "1");
 }
- function secondFunction(){
-one.classList.remove('change');
-two.classList.add('change');
-three.classList.remove('change');
-four.classList.remove('change');
-five.classList.remove('change');
-localStorage.setItem('rank' , '2')
-
-
+function secondFunction() {
+  // one.classList.remove('change');
+  // two.classList.add('change');
+  // three.classList.remove('change');
+  // four.classList.remove('change');
+  // five.classList.remove('change');
+  document.getElementById("two").style.backgroundColor = "orange";
+  localStorage.setItem("rank", "2");
 }
- function thirdFunction(){
-one.classList.remove('change');
-two.classList.remove('change');
-three.classList.add('change');
-four.classList.remove('change');
-five.classList.remove('change');
-localStorage.setItem('rank' , '3')
-
-
+function thirdFunction() {
+  document.getElementById("three").style.backgroundColor = "orange";
+  localStorage.setItem("rank", "3");
 }
- function fourthFunction(){
-one.classList.remove('change');
-two.classList.remove('change');
-three.classList.remove('change');
-four.classList.add('change');
-five.classList.remove('change');
-localStorage.setItem('rank' , '4')
-
-
+function fourthFunction() {
+  document.getElementById("four").style.backgroundColor = "orange";
+  localStorage.setItem("rank", "4");
 }
- function fifthFunction(){
-one.classList.remove('change');
-two.classList.remove('change');
-three.classList.remove('change');
-four.classList.remove('change');
-five.classList.add('change');
-localStorage.setItem('rank' , '5')
-
-
+function fifthFunction() {
+  document.getElementById("five").style.backgroundColor = "orange";
+  localStorage.setItem("rank", "5");
 }
 
 let data = localStorage.getItem("rank");
-response.innerHTML = data
-  
-//   bo = document.querySelector(".body2")
-//   col =  localStorage.getItem('colors')
-//   bo.classList.add(col)
-//   localStorage.clear()
+response.innerHTML = data;
+
+

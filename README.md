@@ -1,2 +1,2 @@
 # Rating-Page
-A page that displays ratings selected by users.
+A project that displays ratings selected by users on a different page.
